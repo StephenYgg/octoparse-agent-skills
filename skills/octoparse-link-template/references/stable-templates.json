@@ -3,12 +3,7 @@
     "template_id": 1577,
     "name": "Google Maps Scraper",
     "slug": "google-maps-advanced-scraper",
-    "template_url": "https://www.octoparse.com/template/google-maps-advanced-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0015,
     "categories": [
       "maps",
       "lead-generation"
@@ -17,7 +12,6 @@
       {
         "name": "Search Term (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "coffee\nbarber shop",
@@ -26,7 +20,6 @@
       {
         "name": "Number of pages (Up to 50)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "Input values scale results: 1=20, 2=40, 3=60, etc. (20 results per increment). For maximum data, use 50—this scrapes all available results.",
@@ -35,7 +28,6 @@
       {
         "name": "Location",
         "param_name": "Location",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "New York",
@@ -44,7 +36,6 @@
       {
         "name": "Get Q&As",
         "param_name": "get_FAQ",
-        "control_type": "Switch",
         "input_kind": "boolean",
         "required": false,
         "placeholder": null,
@@ -106,12 +97,7 @@
     "template_id": 1576,
     "name": "Google Maps Email Finder",
     "slug": "google-maps-contact-scraper",
-    "template_url": "https://www.octoparse.com/template/google-maps-contact-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0005,
     "categories": [
       "maps",
       "lead-generation"
@@ -120,7 +106,6 @@
       {
         "name": "Search Term",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "coffee\nbarber shop\n\nEnter your target keywords only - do not include any location terms. Supports up to 10,000 entries per run separated by line breaks.\nFor large datasets, consider splitting them into multiple runs.",
@@ -129,7 +114,6 @@
       {
         "name": "Number of Pages (1~50)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "1 page for 20 results, 2 pages for 40 results, ..., 50 pages for 1000 results.",
@@ -138,7 +122,6 @@
       {
         "name": "Location",
         "param_name": "Location",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "New York",
@@ -215,12 +198,7 @@
     "template_id": 686,
     "name": "Google Maps Leads Scraper (by Keywords)",
     "slug": "google-maps-scraper-store-details-by-keyword",
-    "template_url": "https://www.octoparse.com/template/google-maps-scraper-store-details-by-keyword",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0004,
     "categories": [
       "maps"
     ],
@@ -228,7 +206,6 @@
       {
         "name": "Search Keywords (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Apple in California\nSam's\nCostco\n\nEnter one or multiple keywords to search for. Supports up to 1,000 per run.",
@@ -237,7 +214,6 @@
       {
         "name": "Number of Pages to Scrape (1~100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "Enter 1 for 20 results max, 2 for 40 results max, 3 for 120 results max, … per keyword.",
@@ -299,12 +275,7 @@
     "template_id": 15,
     "name": "Google Search Scraper",
     "slug": "google-search-scraper",
-    "template_url": "https://www.octoparse.com/template/google-search-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0006,
     "categories": [
       "search-engine",
       "lead-generation"
@@ -313,7 +284,6 @@
       {
         "name": "All these words",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": false,
         "placeholder": "web scraping\nMCP\nProxy",
@@ -322,7 +292,6 @@
       {
         "name": "This exact word or phrase",
         "param_name": "This_exact_word_or_phrase",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "\"rat terrier\"",
@@ -331,7 +300,6 @@
       {
         "name": "Any of these words",
         "param_name": "Any_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "miniature OR standard",
@@ -340,7 +308,6 @@
       {
         "name": "None of these words",
         "param_name": "None_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "-rodent, -\"Jack Russell\"",
@@ -349,7 +316,6 @@
       {
         "name": "Search Language (optional)",
         "param_name": "Search_Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "any language",
@@ -358,7 +324,6 @@
       {
         "name": "Interface Language (optional)",
         "param_name": "Interface_Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "English",
@@ -367,7 +332,6 @@
       {
         "name": "Region (optional)",
         "param_name": "Region",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "any region",
@@ -376,7 +340,6 @@
       {
         "name": "Numbers ranging from (optional)",
         "param_name": "Numbers_ranging_from",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "10..35 kg, £300..£500, 2010..2011",
@@ -385,7 +348,6 @@
       {
         "name": "Site or domain (optional)",
         "param_name": "Site_or_domain",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "wikipedia.org",
@@ -394,7 +356,6 @@
       {
         "name": "Terms appearing (optional)",
         "param_name": "Terms_appearing",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "anywhere in the page",
@@ -403,7 +364,6 @@
       {
         "name": "File type (optional)",
         "param_name": "File_type",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "any format",
@@ -412,7 +372,6 @@
       {
         "name": "Usage rights (optional)",
         "param_name": "usage_rights",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "free to use or share",
@@ -421,7 +380,6 @@
       {
         "name": "Pagination times (optional)",
         "param_name": "Pagination_times",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "30",
@@ -430,7 +388,6 @@
       {
         "name": "Last update (optional)",
         "param_name": "Last_update",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "d1 means past 1 day, w2 means past 2 weeks, m3 means past 3 months, y4 means past 4 years",
@@ -439,7 +396,6 @@
       {
         "name": "Start Date",
         "param_name": "Start_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "2025-01-01",
@@ -448,7 +404,6 @@
       {
         "name": "End Date",
         "param_name": "End_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "2025-06-18",
@@ -487,12 +442,7 @@
     "template_id": 288,
     "name": "Twitter Advanced Search Scraper",
     "slug": "twitter-scraper-by-keywords",
-    "template_url": "https://www.octoparse.com/template/twitter-scraper-by-keywords",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0003,
     "categories": [
       "social-media"
     ],
@@ -500,7 +450,6 @@
       {
         "name": "Dates (From)",
         "param_name": "starttime",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "Example: 2020-01-01",
@@ -509,7 +458,6 @@
       {
         "name": "Dates (To)",
         "param_name": "endtime",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "Example: 2024-10-15",
@@ -518,7 +466,6 @@
       {
         "name": "All of these words",
         "param_name": "All_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: what's happening · contains both \"what's\" and \"happening\"",
@@ -527,7 +474,6 @@
       {
         "name": "This exact phrase",
         "param_name": "This_exact_phrase",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: happy hour · contains the exact phrase \"happy hour\"",
@@ -536,7 +482,6 @@
       {
         "name": "Any of these words",
         "param_name": "Any_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: cats dogs · contains either \"cats\" or \"dogs\" (or both)",
@@ -545,7 +490,6 @@
       {
         "name": "None of these words",
         "param_name": "None_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: cats dogs · does not contain \"cats\" and does not contain \"dogs\"",
@@ -554,7 +498,6 @@
       {
         "name": "These hashtags",
         "param_name": "These_hashtags",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: #ThrowbackThursday · contains the hashtag #ThrowbackThursday",
@@ -563,7 +506,6 @@
       {
         "name": "From these accounts",
         "param_name": "From_these_accounts",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: @X · sent from @X",
@@ -572,7 +514,6 @@
       {
         "name": "To these accounts",
         "param_name": "To_these_accounts",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: @X · sent in reply to @X",
@@ -581,7 +522,6 @@
       {
         "name": "Mentioning these accounts",
         "param_name": "Mentioning_these_accounts",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: @SFBART @Caltrain · mentions @SFBART or mentions @Caltrain",
@@ -590,7 +530,6 @@
       {
         "name": "Minimum replies",
         "param_name": "Minimum_replies",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Example: 280 · posts with at least 280 replies",
@@ -599,7 +538,6 @@
       {
         "name": "Minimum likes",
         "param_name": "Minimum_likes",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Example: 280 · posts with at least 280 Likes",
@@ -608,7 +546,6 @@
       {
         "name": "Minimum reposts",
         "param_name": "Minimum_reposts",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Example: 280 · posts with at least 280 reposts",
@@ -617,7 +554,6 @@
       {
         "name": "Language",
         "param_name": "Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: Any language, en, jp, fr, de",
@@ -626,7 +562,6 @@
       {
         "name": "Max Tweets to Extract",
         "param_name": "Max_Items",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "Example: 100. (Enter how many tweets you want to scrape.)",
@@ -635,7 +570,6 @@
       {
         "name": "Include \"Top\" Results",
         "param_name": "Is_Top",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Switch Off to scrapes only the Latest tab. Switch On to Scrapes both Top and Latest results.",
@@ -644,7 +578,6 @@
       {
         "name": "Cloud Cluster",
         "param_name": "Cloud Cluster",
-        "control_type": "",
         "input_kind": "text",
         "required": false,
         "placeholder": null,
@@ -653,7 +586,6 @@
       {
         "name": "Scraping mode",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "Please press \"Enter\" on your keyboard or enter anything here. It will be set to day mode automatically.",
@@ -662,7 +594,6 @@
       {
         "name": "Reply Filter",
         "param_name": "Replies",
-        "control_type": "Switch",
         "input_kind": "boolean",
         "required": false,
         "placeholder": null,
@@ -671,7 +602,6 @@
       {
         "name": "Include replies and original posts",
         "param_name": "Include_replies_and_original_posts",
-        "control_type": "Switch",
         "input_kind": "boolean",
         "required": false,
         "placeholder": null,
@@ -680,7 +610,6 @@
       {
         "name": "Only show replies",
         "param_name": "Only_show_replies",
-        "control_type": "Switch",
         "input_kind": "boolean",
         "required": false,
         "placeholder": null,
@@ -721,12 +650,7 @@
     "template_id": 1542,
     "name": "🔥 LinkedIn Job Scraper (No Login Required)",
     "slug": "linkedin-job-search-scraper-by-url",
-    "template_url": "https://www.octoparse.com/template/linkedin-job-search-scraper-by-url",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0003,
     "categories": [
       "jobs"
     ],
@@ -734,7 +658,6 @@
       {
         "name": "Keywords (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Django Developer",
@@ -743,7 +666,6 @@
       {
         "name": "Location",
         "param_name": "Location",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "Specify the city, state, or country. Example: United States",
@@ -752,7 +674,6 @@
       {
         "name": "Company name (optional)",
         "param_name": "Company_Title",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": false,
         "placeholder": "Enter the exact company name to filter results. Leave blank to include all companies. \n\nExample: Google; Apple",
@@ -761,7 +682,6 @@
       {
         "name": "Company ID (optional)",
         "param_name": "Company_ID",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": false,
         "placeholder": "Enter a valid company ID to narrow results to a specific employer. Leave blank if not applicable.\n\nExample: 1441",
@@ -770,7 +690,6 @@
       {
         "name": "Date range (optional)",
         "param_name": "Published_at",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Any time, Past month, Past week, or Past 24 hours",
@@ -779,7 +698,6 @@
       {
         "name": "Remote or On Site (optional)",
         "param_name": "Remote_or_OnSite",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Remote, On site, Hybrid",
@@ -788,7 +706,6 @@
       {
         "name": "Job type (optional)",
         "param_name": "Job_Type",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Full time, Part time, Contract, Temporary, Volunteer",
@@ -797,7 +714,6 @@
       {
         "name": "Experience level (optional)",
         "param_name": "Experience_Level",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Internship, Entry level, Associate, Mid Senior level, Director",
@@ -806,7 +722,6 @@
       {
         "name": "Max result per query (optional)",
         "param_name": "Total_Results",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Enter a number from 1 to 3,000. This sets the maximum number of results to extract for each query.",
@@ -847,12 +762,7 @@
     "template_id": 459,
     "name": "Google Maps Store Listing Scraper (Japan)",
     "slug": "google-maps-store-listing-scraper",
-    "template_url": "https://www.octoparse.com/template/google-maps-store-listing-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0002,
     "categories": [
       "maps"
     ],
@@ -860,7 +770,6 @@
       {
         "name": "Keyword (up to 10,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "レストラン\n公園\n東京都 ラーメン屋",
@@ -869,7 +778,6 @@
       {
         "name": "Number of pages (1~100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "100",
@@ -901,12 +809,7 @@
     "template_id": 263,
     "name": "Twitter Scraper (by Account URL)",
     "slug": "twitter-scraper-by-account-url",
-    "template_url": "https://www.octoparse.com/template/twitter-scraper-by-account-url",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0003,
     "categories": [
       "social-media"
     ],
@@ -914,7 +817,6 @@
       {
         "name": "Twitter Account URLs (up to 100,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://x.com/octoparse\nhttps://x.com/elonmusk\nhttps://x.com/NASA\n",
@@ -923,7 +825,6 @@
       {
         "name": "Start Date",
         "param_name": "starttime",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "YYYY-MM-DD",
@@ -932,7 +833,6 @@
       {
         "name": "End Date",
         "param_name": "endtime",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "YYYY-MM-DD",
@@ -941,7 +841,6 @@
       {
         "name": "Scraping Mode",
         "param_name": "Split_mode",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "day, week, month (Selecting 'day' will scrape more data but take longer, while 'month' provides quicker results with less data.)",
@@ -950,7 +849,6 @@
       {
         "name": "Language",
         "param_name": "Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "One language at a time/ Default is any. you can enter any, en, fr, de, it, ja, ko, zh-cn, es, etc. Refer to the description for additional country codes.",
@@ -959,7 +857,6 @@
       {
         "name": "Reply Filter",
         "param_name": "Replies",
-        "control_type": "Switch",
         "input_kind": "boolean",
         "required": false,
         "placeholder": null,
@@ -968,7 +865,6 @@
       {
         "name": "Include replies and original posts",
         "param_name": "Include_replies_and_original_posts",
-        "control_type": "Switch",
         "input_kind": "boolean",
         "required": false,
         "placeholder": null,
@@ -977,7 +873,6 @@
       {
         "name": "Only show replies",
         "param_name": "Only_show_replies",
-        "control_type": "Switch",
         "input_kind": "boolean",
         "required": false,
         "placeholder": null,
@@ -986,7 +881,6 @@
       {
         "name": "Server Cluster",
         "param_name": "server cluster",
-        "control_type": null,
         "input_kind": "text",
         "required": false,
         "placeholder": null,
@@ -1032,12 +926,7 @@
     "template_id": 941,
     "name": "Google Maps Reviews Scraper",
     "slug": "google-maps-review-scraper-cloud",
-    "template_url": "https://www.octoparse.com/template/google-maps-review-scraper-cloud",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0002,
     "categories": [
       "maps"
     ],
@@ -1045,7 +934,6 @@
       {
         "name": "Google Maps Place Details Page URLs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://goo.gl/maps/1T5eicx7eZxPNsRU8\nhttps://www.google.com/maps/place/Junior's+Restaurant+%26+Bakery/@40.6901493,-73.9840623,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25e9540f32929:0xe9e262856e34ee99!8m2!3d40.6901493!4d-73.9818736",
@@ -1054,7 +942,6 @@
       {
         "name": "Number of Pages (up to 5,000)",
         "param_name": "pagesize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "enter 1 for 10 reviews, 2 for 20 reviews, etc.",
@@ -1088,12 +975,7 @@
     "template_id": 1375,
     "name": "Pagesjaunes Business Info Scraper",
     "slug": "pagesjaunes-business-info-scraper",
-    "template_url": "https://www.octoparse.com/template/pagesjaunes-business-info-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0005,
     "categories": [
       "directories"
     ],
@@ -1101,7 +983,6 @@
       {
         "name": "Keywords|Address (up to 2000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Attention: The separator is a vertical bar | (pipe), not a forward slash / \ndocteur|Paris\nmairie|Paris",
@@ -1129,12 +1010,7 @@
     "template_id": 1463,
     "name": "Superpages Scraper",
     "slug": "superpages-scraper",
-    "template_url": "https://www.octoparse.com/template/superpages-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 1e-05,
     "categories": [
       "directories",
       "lead-generation"
@@ -1143,7 +1019,6 @@
       {
         "name": "Keywords (up to 100,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "supermarkets\nrestaurants\nbars",
@@ -1152,7 +1027,6 @@
       {
         "name": "Location",
         "param_name": "Location",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "New York",
@@ -1192,12 +1066,7 @@
     "template_id": 1107,
     "name": "🔥 Indeed Job Scraper",
     "slug": "indeed-job-scraper-by-keywords",
-    "template_url": "https://www.octoparse.com/template/indeed-job-scraper-by-keywords",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.002,
     "categories": [
       "jobs"
     ],
@@ -1205,7 +1074,6 @@
       {
         "name": "Country",
         "param_name": "Country",
-        "control_type": "Dropdown",
         "input_kind": "text",
         "required": false,
         "placeholder": null,
@@ -1214,7 +1082,6 @@
       {
         "name": "Search Term",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Enter your target search term. Up to 20 entries per run. Supports multiple keywords separated by line breaks. For large datasets, consider splitting them into multiple runs.\n\nExample: Accountant; Software engineer",
@@ -1223,7 +1090,6 @@
       {
         "name": "Location",
         "param_name": "Location",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Specify a city, state, or region. Leave blank to include all locations. Example: Kuala Lumper; Beijing",
@@ -1262,12 +1128,7 @@
     "template_id": 802,
     "name": "TikTok Video Details & Comments Scraper",
     "slug": "tiktok-video-comments-scraper",
-    "template_url": "https://www.octoparse.com/template/tiktok-video-comments-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0004,
     "categories": [
       "social-media"
     ],
@@ -1275,7 +1136,6 @@
       {
         "name": "Target URLs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.tiktok.com/@nasa.curiosity/video/7472116055918284054\nhttps://www.tiktok.com/@nasa.curiosity/video/7444613062256037152\nhttps://www.tiktok.com/@nasa.curiosity/video/7499943105865600278",
@@ -1284,7 +1144,6 @@
       {
         "name": "Page Size (up to 200)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "1 for 50 results, 2 for 100 results.",
@@ -1330,12 +1189,7 @@
     "template_id": 209,
     "name": "Twitter Scraper (by hashtag)",
     "slug": "twitter-scraper-by-hashtag",
-    "template_url": "https://www.octoparse.com/template/twitter-scraper-by-hashtag",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0003,
     "categories": [
       "social-media"
     ],
@@ -1343,7 +1197,6 @@
       {
         "name": "Keywords/ Hashtags (up to 3)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "#tbt\n#fridayfeeling\n#space",
@@ -1352,7 +1205,6 @@
       {
         "name": "Scroll-down times (up to 200)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "",
@@ -1386,12 +1238,7 @@
     "template_id": 531,
     "name": "JP Indeed Job Listing Scraper by keywords",
     "slug": "indeed-job-listing-scraper-jp-by-keywords",
-    "template_url": "https://www.octoparse.com/template/indeed-job-listing-scraper-jp-by-keywords",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0003,
     "categories": [
       "jobs"
     ],
@@ -1399,7 +1246,6 @@
       {
         "name": "Occupation (up to100)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "",
@@ -1408,7 +1254,6 @@
       {
         "name": " Number of pages (1~150)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "",
@@ -1417,7 +1262,6 @@
       {
         "name": "Location",
         "param_name": "address",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "",
@@ -1446,12 +1290,7 @@
     "template_id": 344,
     "name": "Amazon Reviews Scraper",
     "slug": "amazon-reviews-scraper-for-amazon-us",
-    "template_url": "https://www.octoparse.com/template/amazon-reviews-scraper-for-amazon-us",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.001,
     "categories": [
       "e-commerce"
     ],
@@ -1459,7 +1298,6 @@
       {
         "name": "ASINs (up to 20)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B019FGCOW6",
@@ -1468,7 +1306,6 @@
       {
         "name": "Start Date (Reviews Posted After)",
         "param_name": "User_Time",
-        "control_type": "DatetimePicker",
         "input_kind": "text",
         "required": false,
         "placeholder": null,
@@ -1503,12 +1340,7 @@
     "template_id": 208,
     "name": "Twitter (X) Comments Scraper",
     "slug": "tweets-comments-scraper-by-search-result-url",
-    "template_url": "https://www.octoparse.com/template/tweets-comments-scraper-by-search-result-url",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0003,
     "categories": [
       "social-media"
     ],
@@ -1516,7 +1348,6 @@
       {
         "name": "Tweet URLs (up to 100,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://x.com/smutoro/status/1828297507484438722\nhttps://x.com/SpaceX/status/1827663529543168152\nhttps://x.com/DanScavino/status/1828615095586357466",
@@ -1525,7 +1356,6 @@
       {
         "name": "Number of replies (up to 100,000)",
         "param_name": "Number_of_replies",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "100000",
@@ -1564,12 +1394,7 @@
     "template_id": 687,
     "name": "Google Maps Leads Scraper (by URLs)",
     "slug": "google-maps-scraper-store-details-by-url",
-    "template_url": "https://www.octoparse.com/template/google-maps-scraper-store-details-by-url",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0002,
     "categories": [
       "maps"
     ],
@@ -1577,7 +1402,6 @@
       {
         "name": "Target URLs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.google.com/maps/search/restaurants+in+new+york/@40.7381653,-74.0379583,13z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNjM5SAFQAw%3D%3D",
@@ -1586,7 +1410,6 @@
       {
         "name": "Number of Pages (1–100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "5",
@@ -1631,12 +1454,7 @@
     "template_id": 652,
     "name": "Google SERP scraper (Top 5 results)",
     "slug": "google-search-results-scraper",
-    "template_url": "https://www.octoparse.com/template/google-search-results-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 1e-05,
     "categories": [
       "search-engine"
     ],
@@ -1644,7 +1462,6 @@
       {
         "name": "Keyword (up to 10,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Octoparse\nData mining\nCrawling",
@@ -1675,12 +1492,7 @@
     "template_id": 97,
     "name": "Amazon Product Scraper (for US)",
     "slug": "amazon-product-details-scraper",
-    "template_url": "https://www.octoparse.com/template/amazon-product-details-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0006,
     "categories": [
       "e-commerce"
     ],
@@ -1688,7 +1500,6 @@
       {
         "name": "ASINs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B09C1CN2SN\nB0BVQ5ZGN8\nB0CPSBD68W",
@@ -1697,7 +1508,6 @@
       {
         "name": "Zip code",
         "param_name": "ZipCode",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "10001",
@@ -1750,12 +1560,7 @@
     "template_id": 1677,
     "name": "Itown Listing scraper",
     "slug": "itown-store-scraper-cloud-only",
-    "template_url": "https://www.octoparse.com/template/itown-store-scraper-cloud-only",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.00065,
     "categories": [
       "directories"
     ],
@@ -1763,7 +1568,6 @@
       {
         "name": "Area;Keyword(up to 500)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "東京;レストラン",
@@ -1795,12 +1599,7 @@
     "template_id": 799,
     "name": "TikTok Search Scraper (No Login Required)",
     "slug": "tiktok-video-url-scraper",
-    "template_url": "https://www.octoparse.com/template/tiktok-video-url-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.001,
     "categories": [
       "social-media"
     ],
@@ -1808,7 +1607,6 @@
       {
         "name": "Keywords",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "dance\ncooking",
@@ -1817,7 +1615,6 @@
       {
         "name": "Page Size(1~20 , The default is 3)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "3",
@@ -1826,7 +1623,6 @@
       {
         "name": "Tab",
         "param_name": "Tab",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "Videos or Top or Users",
@@ -1835,7 +1631,6 @@
       {
         "name": "Proxy Country Code",
         "param_name": "proxyCountryCode",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "US or JP or other country codes",
@@ -1864,12 +1659,7 @@
     "template_id": 262,
     "name": "YouTube Channel Scraper",
     "slug": "youtube-channel-scraper",
-    "template_url": "https://www.octoparse.com/template/youtube-channel-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0002,
     "categories": [
       "social-media"
     ],
@@ -1877,7 +1667,6 @@
       {
         "name": "Usernames to Scrape",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "@Octoparsewebscraping\n@OpenAI\n\nEnter one or multiple user handles. Supports up to 100,000 entries per run (one per line).\n",
@@ -1886,7 +1675,6 @@
       {
         "name": "Sort Posts By",
         "param_name": "order",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "oldest; latest",
@@ -1895,7 +1683,6 @@
       {
         "name": "Stop Extraction At (End Date)（If the Tab is shorts don't fill in here）",
         "param_name": "specified_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "2025-08-01",
@@ -1904,7 +1691,6 @@
       {
         "name": "Tab",
         "param_name": "Tab",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "videos or shorts or live or podcasts or playlists  or posts",
@@ -1929,12 +1715,7 @@
     "template_id": 2150,
     "name": "Google Search Email Finder (Premium)",
     "slug": "google-search-email-finder-premium",
-    "template_url": "https://www.octoparse.com/template/google-search-email-finder-premium",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0006,
     "categories": [
       "search-engine",
       "lead-generation"
@@ -1943,7 +1724,6 @@
       {
         "name": "All these words",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": false,
         "placeholder": "web scraping\nMCP\nProxy",
@@ -1952,7 +1732,6 @@
       {
         "name": "This exact word or phrase",
         "param_name": "This_exact_word_or_phrase",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "\"rat terrier\"",
@@ -1961,7 +1740,6 @@
       {
         "name": "Any of these words",
         "param_name": "Any_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "miniature OR standard",
@@ -1970,7 +1748,6 @@
       {
         "name": "None of these words",
         "param_name": "None_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "-rodent, -\"Jack Russell\"",
@@ -1979,7 +1756,6 @@
       {
         "name": "Search Language (optional)",
         "param_name": "Search_Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "any language",
@@ -1988,7 +1764,6 @@
       {
         "name": "Interface Language (optional)",
         "param_name": "Interface_Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "English",
@@ -1997,7 +1772,6 @@
       {
         "name": "Region (optional)",
         "param_name": "Region",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "any region",
@@ -2006,7 +1780,6 @@
       {
         "name": "Numbers ranging from (optional)",
         "param_name": "Numbers_ranging_from",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "10..35 kg, £300..£500, 2010..2011",
@@ -2015,7 +1788,6 @@
       {
         "name": "Site or domain (optional)",
         "param_name": "Site_or_domain",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "wikipedia.org",
@@ -2024,7 +1796,6 @@
       {
         "name": "Terms appearing (optional)",
         "param_name": "Terms_appearing",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "anywhere in the page",
@@ -2033,7 +1804,6 @@
       {
         "name": "File type (optional)",
         "param_name": "File_type",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "any format",
@@ -2042,7 +1812,6 @@
       {
         "name": "Usage rights (optional)",
         "param_name": "usage_rights",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "free to use or share",
@@ -2051,7 +1820,6 @@
       {
         "name": "Pagination times (optional)",
         "param_name": "Pagination_times",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "30",
@@ -2060,7 +1828,6 @@
       {
         "name": "Last update (optional)",
         "param_name": "Last_update",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "d1 means past 1 day, w2 means past 2 weeks, m3 means past 3 months, y4 means past 4 years",
@@ -2069,7 +1836,6 @@
       {
         "name": "Start Date",
         "param_name": "Start_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "2025-01-01",
@@ -2078,7 +1844,6 @@
       {
         "name": "End Date",
         "param_name": "End_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "2025-06-18",
@@ -2117,12 +1882,7 @@
     "template_id": 1957,
     "name": "Reddit Post & Comments Scraper",
     "slug": "reddit-post-comments-scraper",
-    "template_url": "https://www.octoparse.com/template/reddit-post-comments-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0001,
     "categories": [
       "social-media"
     ],
@@ -2130,7 +1890,6 @@
       {
         "name": "Old Reddit Post URLs (up to 100,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://old.reddit.com/r/cats/comments/153rj2b/show_me_your_cats_in_places_they_arent_meant_to_be/\nhttps://old.reddit.com/r/cats/comments/15098e0/catgiving_prizes/\nhttps://old.reddit.com/r/cats/comments/154exbv/can_someone_tell_me_why_my_cat_is_so_symmetrical/\nhttps://old.reddit.com/r/cats/comments/154dghq/my_cats_butt_smells_even_after_i_bathe_him/\nhttps://old.reddit.com/r/cats/comments/15409u4/kitten_showed_up_in_our_yard_and_is_slowly/",
@@ -2170,12 +1929,7 @@
     "template_id": 1945,
     "name": "🔥 Indeed Job Scraper (by URL)",
     "slug": "indeed-job-scraper-by-url",
-    "template_url": "https://www.octoparse.com/template/indeed-job-scraper-by-url",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.002,
     "categories": [
       "jobs"
     ],
@@ -2183,7 +1937,6 @@
       {
         "name": "Indeed Search Result URLs (up to 100,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.indeed.com/jobs?q=&l=san+francisco&commuteTime=35&ts=1763541230861&from=searchOnDesktopSerp&rq=1&rsIdx=1&newcount=8615&fromage=last&vjk=168e8b6acb3df374\nhttps://www.indeed.com/jobs?q=customer+service&l=new+york&commuteTime=35&from=searchOnDesktopSerp&cf-turnstile-response=0.rT87SSQbLB3ktECkCfaCmKnbDuRO7iY4z175SIQfPrtXUsOjZ-bYVxrcIWLJnxT-UseXD-qva7e2iyWawYssqOuN1dqCkO_DN6zfktzDp24p9cwhXRS_wYDv0VOaLQvnKgJsTePk7Ip0lMGYbctDO-XIxreno20PJLXrg9IBW_tiRaUM0xJWj1Z4nkjC0QCkmjTTu8sE2_3e6Ij3q-_aZVVbbwgIAoXTj3TNDQK8ZicADg51mGwTZdE_eMlH2zCC_JPnDYPBHO_4f7SyR9hwBVXL_enBySsb9EQnaCgcfo8dI3032pMzQ-EHFrIoAcCt0giapvS7A4vrcyi68vC686BfrntMr-BO8jTlPPObLV3jd_hxAVDfk7QC7og6NkUUNTGLtEFrmwhBAqoNVxoRJWPut61soV4aRkPllQqeSvu2fVtI0JZ9qfVS3f0CM7CgJ8kkSlCS-hutQXaylndJcAsoPb1aUUywbtToF5alKTC-g_TB97Kym4Y9CULYvWjbiRIEmjDGcmw-UW5sZQxxdWDc-ugnM7OTkAWRWNbdZ2mzk-9aWESIAQsCPDBSriYhmHlcJ3opFgOwOEW5Oh76xiPrB_yB0I-ySZY3_PyW0TYsszdwIndSUS2FOHCOJigqTTzUW6wzoo1c87sFJGMmKJdY0QQhVJv03lMOI2MPz3eBUKaupnLPJTzO5kisEd4Q9x0KV7bkXANO4aSO0i4HPJr0heJdu5YADWdQ1-N4m0OOGBaN9y7Es9hlq3mF1RdYJ4_v8mP9WhlOG8Q_S58oXJE3jae-_idjMN1rZUPZidy2H9aB26DnUr_QQS7cO4MO_VUWlWJfQMGHKG_13QcR0Ev4ZjFoAopkTUN9oUYTfekxuRsB0b4ThTlVtvrYEtjMTSG8vITkFnoanDQXc6A2KrsYLSmP9zFMDPiuA7ERnEk.ybDhB8SGazAbBcRDMXMg_g.1e192771a5b495d1c9eb1403e68d50eabc5a7a3e2050fb9a40db9346400a652e&vjk=69a2a71f45166cd5",
@@ -2221,12 +1974,7 @@
     "template_id": 1838,
     "name": "Twitter Advanced Search Comments Scraper",
     "slug": "twitter-advanced-search-comments-scraper",
-    "template_url": "https://www.octoparse.com/template/twitter-advanced-search-comments-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0006,
     "categories": [
       "social-media"
     ],
@@ -2234,7 +1982,6 @@
       {
         "name": "Dates (From)",
         "param_name": "starttime",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "2020-01-01",
@@ -2243,7 +1990,6 @@
       {
         "name": "Dates (To)",
         "param_name": "endtime",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "2024-10-15",
@@ -2252,7 +1998,6 @@
       {
         "name": "All of these words",
         "param_name": "All_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: what’s happening · contains both “what’s” and “happening”",
@@ -2261,7 +2006,6 @@
       {
         "name": "This exact phrase",
         "param_name": "This_exact_phrase",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "This exact phrase. E.g. web scraping contains the exact phrase \"web scraping\"",
@@ -2270,7 +2014,6 @@
       {
         "name": "Any of these words",
         "param_name": "Any_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Any of these words",
@@ -2279,7 +2022,6 @@
       {
         "name": "None of these words",
         "param_name": "None_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "None of these words",
@@ -2288,7 +2030,6 @@
       {
         "name": "These hashtags",
         "param_name": "These_hashtags",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: #ThrowbackThursday · contains the hashtag #ThrowbackThursday",
@@ -2297,7 +2038,6 @@
       {
         "name": "From these accounts",
         "param_name": "From_these_accounts",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: @X · sent from @X",
@@ -2306,7 +2046,6 @@
       {
         "name": "To these accounts",
         "param_name": "To_these_accounts",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: @X · sent in reply to @X",
@@ -2315,7 +2054,6 @@
       {
         "name": "Mentioning these accounts",
         "param_name": "Mentioning_these_accounts",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: @SFBART @Caltrain · mentions @SFBART or mentions @Caltrain",
@@ -2324,7 +2062,6 @@
       {
         "name": "Minimum replies",
         "param_name": "Minimum_replies",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Example: 280 · posts with at least 280 replies",
@@ -2333,7 +2070,6 @@
       {
         "name": "Minimum likes",
         "param_name": "Minimum_likes",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Example: 280 · posts with at least 280 Likes",
@@ -2342,7 +2078,6 @@
       {
         "name": "Minimum reposts",
         "param_name": "Minimum_reposts",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Example: 280 · posts with at least 280 reposts",
@@ -2351,7 +2086,6 @@
       {
         "name": "Language",
         "param_name": "Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: Any language, en, jp, fr, de",
@@ -2360,7 +2094,6 @@
       {
         "name": "Max_Items",
         "param_name": "Max_Items",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Example: 100. (Enter how many tweets you want to scrape.)",
@@ -2369,7 +2102,6 @@
       {
         "name": "Scraping mode",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "Please press \"Enter\" on your keyboard or enter anything here. It will be set to day mode automatically.",
@@ -2428,12 +2160,7 @@
     "template_id": 1562,
     "name": "Naver Map Scraper(by Keyword)",
     "slug": "naver-map-scraper",
-    "template_url": "https://www.octoparse.com/template/naver-map-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0006,
     "categories": [
       "others"
     ],
@@ -2441,7 +2168,6 @@
       {
         "name": "keyword(up to 20)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "동대문 돈까스\n홍대 백반집",
@@ -2472,12 +2198,7 @@
     "template_id": 944,
     "name": "Yellow Pages Scraper (Cloud)",
     "slug": "yellow-page-scraper-cloud",
-    "template_url": "https://www.octoparse.com/template/yellow-page-scraper-cloud",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "directories",
       "lead-generation"
@@ -2486,7 +2207,6 @@
       {
         "name": "Company;zip code (with no space between but a semicolon)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "Trust GDC;63353",
@@ -2495,7 +2215,6 @@
       {
         "name": "PageSize(The default value is 100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "3",
@@ -2520,12 +2239,7 @@
     "template_id": 265,
     "name": "YouTube Comments & Replies Scraper",
     "slug": "youtube-comments-replies-scraper",
-    "template_url": "https://www.octoparse.com/template/youtube-comments-replies-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0002,
     "categories": [
       "social-media"
     ],
@@ -2533,7 +2247,6 @@
       {
         "name": "Video URLs (up to 500 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.youtube.com/watch?v=xBBAD407zzU",
@@ -2542,7 +2255,6 @@
       {
         "name": "Maximum Number of Comments (1–10,000)",
         "param_name": "CommentsCount",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "10",
@@ -2551,7 +2263,6 @@
       {
         "name": "Maximum Number of Replies (0–100)",
         "param_name": "RepliesCount",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "Input 0 ",
@@ -2583,12 +2294,7 @@
     "template_id": 1556,
     "name": "Leboncoin Data Scraper",
     "slug": "leboncoin-data-scraper",
-    "template_url": "https://www.octoparse.com/template/leboncoin-data-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0015,
     "categories": [
       "real-estate",
       "e-commerce"
@@ -2597,7 +2303,6 @@
       {
         "name": "Search Resultat URLs (up to 1000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.leboncoin.fr/recherche?text=iphone\nhttps://www.leboncoin.fr/recherche?text=v%C3%A9lo&locations=Paris_75015__48.84106_2.29933_2752_5000",
@@ -2606,7 +2311,6 @@
       {
         "name": "PageSize (1-100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "50",
@@ -2636,12 +2340,7 @@
     "template_id": 1203,
     "name": "Amazon Review Details Scraper (for Japan)",
     "slug": "amazon-jp-review-details-scraper",
-    "template_url": "https://www.octoparse.com/template/amazon-jp-review-details-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0005,
     "categories": [
       "e-commerce",
       "reviews"
@@ -2650,7 +2349,6 @@
       {
         "name": "ASIN（limited to 50 lines）",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B0995G5SM8",
@@ -2659,7 +2357,6 @@
       {
         "name": "Review_Date_Time (e.g, 2021-2-20)",
         "param_name": "User_Time",
-        "control_type": "DatetimePicker",
         "input_kind": "text",
         "required": true,
         "placeholder": null,
@@ -2688,12 +2385,7 @@
     "template_id": 2106,
     "name": "TikTok Profile Scraper",
     "slug": "tiktok-profile-scraper",
-    "template_url": "https://www.octoparse.com/template/tiktok-profile-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.001,
     "categories": [
       "social-media"
     ],
@@ -2701,7 +2393,6 @@
       {
         "name": "Target URLs",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.tiktok.com/@mymedicalclinic\nhttps://www.tiktok.com/@eboshitokd\n\nEnter one or multiple webpage URLs to scrape. Supports line-break–separated inputs.",
@@ -2710,7 +2401,6 @@
       {
         "name": "Number of Video (up to 100,000)",
         "param_name": "Count",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "100000",
@@ -2756,12 +2446,7 @@
     "template_id": 2075,
     "name": "Social Media Finder",
     "slug": "social-media-finder",
-    "template_url": "https://www.octoparse.com/template/social-media-finder",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.001,
     "categories": [
       "social-media",
       "lead-generation"
@@ -2770,7 +2455,6 @@
       {
         "name": "Name or nick names (up to 1,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": null,
@@ -2791,12 +2475,7 @@
     "template_id": 2001,
     "name": "JP Indeed Job Listings Scraper by URL (cloud only)",
     "slug": "jp-indeed-job-listings-url-scraper-cloud",
-    "template_url": "https://www.octoparse.com/template/jp-indeed-job-listings-url-scraper-cloud",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0006,
     "categories": [
       "jobs"
     ],
@@ -2804,7 +2483,6 @@
       {
         "name": "URL (up to 100)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://jp.indeed.com/jobs?q=apple&l=%E6%9D%B1%E4%BA%AC%E9%83%BD&from=searchOnDesktopSerp&vjk=06fa0c31b80d046b",
@@ -2834,12 +2512,7 @@
     "template_id": 1844,
     "name": "Itown page details_cloud only",
     "slug": "Itown-page-details-cloud-only",
-    "template_url": "https://www.octoparse.com/template/Itown-page-details-cloud-only",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.00015,
     "categories": [
       "directories"
     ],
@@ -2847,7 +2520,6 @@
       {
         "name": "URLs（up to 100,000 urls)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://itp.ne.jp/hokkaido/sapporoshi-kitaku/kita6jiyonishi/-/-/-/010415646149530080\nhttps://itp.ne.jp/hokkaido/takikawashi/hommachi/-/-/-/010862810120681230\nhttps://itp.ne.jp/hokkaido/tomakomaishi/motonakanochiyo/-/-/-/011711044109440300",
@@ -2872,12 +2544,7 @@
     "template_id": 881,
     "name": "Stepstone Listing Job Scraper",
     "slug": "stepstone-listing-job-scraper",
-    "template_url": "https://www.octoparse.com/template/stepstone-listing-job-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "jobs"
     ],
@@ -2885,7 +2552,6 @@
       {
         "name": "Keywords (companies or positions)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Python",
@@ -2894,7 +2560,6 @@
       {
         "name": "Location",
         "param_name": "location",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "Berlin",
@@ -2921,12 +2586,7 @@
     "template_id": 766,
     "name": "Zillow Listing Scraper (by URL)",
     "slug": "zillow-scraper",
-    "template_url": "https://www.octoparse.com/template/zillow-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "real-estate"
     ],
@@ -2934,7 +2594,6 @@
       {
         "name": "URL",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.zillow.com/homes/New-Era,-MI_rb/\nhttps://www.zillow.com/homes/for_sale/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22usersSearchTerm%22%3A%22wangjingzhong%22%2C%22mapBounds%22%3A%7B%22west%22%3A-85.10841940625%2C%22east%22%3A-66.43166159375%2C%22south%22%3A38.917603017114985%2C%22north%22%3A46.43110152422185%7D%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22beds%22%3A%7B%22min%22%3A1%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A4000%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%7D%2C%22isListVisible%22%3Atrue%2C%22mapZoom%22%3A6%7D",
@@ -2964,12 +2623,7 @@
     "template_id": 2037,
     "name": "Reddit Subreddit Scraper",
     "slug": "reddit-subreddit-scraper-by-url",
-    "template_url": "https://www.octoparse.com/template/reddit-subreddit-scraper-by-url",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 2e-05,
     "categories": [
       "social-media"
     ],
@@ -2977,7 +2631,6 @@
       {
         "name": "Tab",
         "param_name": "tab",
-        "control_type": "Dropdown",
         "input_kind": "text",
         "required": true,
         "placeholder": null,
@@ -2986,7 +2639,6 @@
       {
         "name": "SubReddits or communities URLs (up to 100,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://old.reddit.com/r/FortNiteBR/\nhttps://old.reddit.com/r/webscraping/\nhttps://www.reddit.com/r/ChatGPT/",
@@ -2995,7 +2647,6 @@
       {
         "name": "Max_Items",
         "param_name": "Max_Items",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Example: 100",
@@ -3021,12 +2672,7 @@
     "template_id": 1840,
     "name": "Coupang Review Scraper(cloud)",
     "slug": "coupang-review-scraper-cloud",
-    "template_url": "https://www.octoparse.com/template/coupang-review-scraper-cloud",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0002,
     "categories": [
       "others"
     ],
@@ -3034,7 +2680,6 @@
       {
         "name": "URL(up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.coupang.com/vp/products/6247512512?itemId=12645118972&vendorItemId=79912607908&pickType=COU_PICK&q=%EA%B0%93%EA%B9%80%EC%B9%98&itemsCount=36&searchId=3da2e7e329c445ac9e6e8f7fa51e40a8&rank=2&isAddedCart=",
@@ -3053,12 +2698,7 @@
     "template_id": 430,
     "name": "Idealista Listing Pages Scraper",
     "slug": "idealista-listados-scraper",
-    "template_url": "https://www.octoparse.com/template/idealista-listados-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "real-estate"
     ],
@@ -3066,7 +2706,6 @@
       {
         "name": "URL",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.idealista.com/venta-viviendas/barcelona/gracia/vila-de-gracia/",
@@ -3075,7 +2714,6 @@
       {
         "name": "Number of pages",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "1",
@@ -3101,12 +2739,7 @@
     "template_id": 1880,
     "name": "Coupang Product List Scraper(cloud ver.)",
     "slug": "coupang-product-list-scraper-cloud",
-    "template_url": "https://www.octoparse.com/template/coupang-product-list-scraper-cloud",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0002,
     "categories": [
       "others"
     ],
@@ -3114,7 +2747,6 @@
       {
         "name": "Keywords(up to 100)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "케이밍 키보드\n사무실 키보드\n예쁜 키보드",
@@ -3123,7 +2755,6 @@
       {
         "name": "PageSize",
         "param_name": "PageSize",
-        "control_type": "",
         "input_kind": "number",
         "required": false,
         "placeholder": null,
@@ -3143,12 +2774,7 @@
     "template_id": 1682,
     "name": "Gelbe Seiten Listing Scraper (Cloud by keyword pairs)",
     "slug": "gelbe-seiten-listing-scraper-cloud",
-    "template_url": "https://www.octoparse.com/template/gelbe-seiten-listing-scraper-cloud",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0003,
     "categories": [
       "directories",
       "lead-generation"
@@ -3157,7 +2783,6 @@
       {
         "name": "Keyword pairs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "arzt;berlin\nmanager;hamburg",
@@ -3183,12 +2808,7 @@
     "template_id": 99,
     "name": "Amazon Details ASIN Scraper (for germany)",
     "slug": "amazon-details-asin-scraper-for-germany",
-    "template_url": "https://www.octoparse.com/template/amazon-details-asin-scraper-for-germany",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "e-commerce"
     ],
@@ -3196,7 +2816,6 @@
       {
         "name": "List of ASINs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B09Z6Q15BZ\nB0CJR2G7BL\nB0CLNSXMHD\nB0CGL3L4NC\nB073TYBC9H\nB0CM5VK8Q4\nB0C4XH5MS4",
@@ -3238,12 +2857,7 @@
     "template_id": 2067,
     "name": "Reddit Search Scraper",
     "slug": "reddit-search-scraper",
-    "template_url": "https://www.octoparse.com/template/reddit-search-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 5e-05,
     "categories": [
       "social-media"
     ],
@@ -3251,7 +2865,6 @@
       {
         "name": "Search Term (up to 100,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": null,
@@ -3260,7 +2873,6 @@
       {
         "name": "Sorted by",
         "param_name": "sorted_by",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "You can input new, top, relevance, comments. It'll be relevance by default.",
@@ -3269,7 +2881,6 @@
       {
         "name": "Date range",
         "param_name": "links_from",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "You can input all, year, month, week, day, or hour. It'll be all by default.",
@@ -3278,7 +2889,6 @@
       {
         "name": "Pagination",
         "param_name": "pagination",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Up to 10. Each page shows 22-25 posts.",
@@ -3305,12 +2915,7 @@
     "template_id": 1996,
     "name": "TikTok Video Details Scraper",
     "slug": "tiktok-video-details-scraper",
-    "template_url": "https://www.octoparse.com/template/tiktok-video-details-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.002,
     "categories": [
       "social-media"
     ],
@@ -3318,7 +2923,6 @@
       {
         "name": "TikTok Video URLs (up to 100,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.tiktok.com/@30mingems/photo/7540270969617681694\nhttps://www.tiktok.com/@dk.ghetto2/photo/7348863186373840161\nhttps://www.tiktok.com/@disneycruiselinesg/video/7496126063425211666",
@@ -3357,12 +2961,7 @@
     "template_id": 1690,
     "name": "Google Job Scraper (by Keywords)",
     "slug": "google-job-search",
-    "template_url": "https://www.octoparse.com/template/google-job-search",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0002,
     "categories": [
       "jobs"
     ],
@@ -3370,7 +2969,6 @@
       {
         "name": "Keyword (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Sales Associate in Chicago, US\nHuman Resources in Vancouver, Canada\nFinancial Analyst in London, UK",
@@ -3415,12 +3013,7 @@
     "template_id": 431,
     "name": "Idealista Details Scraper",
     "slug": "idealista-detalles-scraper",
-    "template_url": "https://www.octoparse.com/template/idealista-detalles-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0002,
     "categories": [
       "real-estate"
     ],
@@ -3428,7 +3021,6 @@
       {
         "name": "URL(s) of detail page (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.idealista.com/inmueble/103658491/",
@@ -3462,12 +3054,7 @@
     "template_id": 98,
     "name": "Amazon Product Scraper (for germany)",
     "slug": "amazon-produkt-scraper",
-    "template_url": "https://www.octoparse.com/template/amazon-produkt-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "e-commerce"
     ],
@@ -3475,7 +3062,6 @@
       {
         "name": "Keywords (up to 10000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "iphone15\nweihnachtenkerzen\nsportshuhe",
@@ -3484,7 +3070,6 @@
       {
         "name": "Number of Pages (up to 1000)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "10",
@@ -3493,7 +3078,6 @@
       {
         "name": "Postal Code in Germany",
         "param_name": "PostCode",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "10115",
@@ -3520,12 +3104,7 @@
     "template_id": 1816,
     "name": "Helloasso Association Emails Scraper",
     "slug": "helloasso-association-emails-scraper",
-    "template_url": "https://www.octoparse.com/template/helloasso-association-emails-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.002,
     "categories": [
       "directories",
       "lead-generation"
@@ -3534,7 +3113,6 @@
       {
         "name": "URLs (up to 300)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.helloasso.com/e/recherche/associations?category_tags=animaux",
@@ -3543,7 +3121,6 @@
       {
         "name": "PageSize",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "10",
@@ -3569,12 +3146,7 @@
     "template_id": 1730,
     "name": "Wallapop Scraper (by Urls)",
     "slug": "wallapop-scraper-con-urls",
-    "template_url": "https://www.octoparse.com/template/wallapop-scraper-con-urls",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0003,
     "categories": [
       "others"
     ],
@@ -3582,7 +3154,6 @@
       {
         "name": "MainKeys",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "https://es.wallapop.com/app/search?filters_source=quick_filters&keywords=autocaravanas&category_ids=12800&longitude=-3.69196&latitude=40.41956&min_sale_price=20000&order_by=newest",
@@ -3591,7 +3162,6 @@
       {
         "name": "Totalnum",
         "param_name": "Totalnum",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "5",
@@ -3619,12 +3189,7 @@
     "template_id": 1197,
     "name": "Mercari Product Listings Scraper",
     "slug": "mercari-keyword-product-listings-scraper",
-    "template_url": "https://www.octoparse.com/template/mercari-keyword-product-listings-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 5e-05,
     "categories": [
       "e-commerce"
     ],
@@ -3632,7 +3197,6 @@
       {
         "name": "Keywords (up to 250 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "漫画\n化粧品",
@@ -3641,7 +3205,6 @@
       {
         "name": "Number of pages (1~100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "",
@@ -3665,12 +3228,7 @@
     "template_id": 804,
     "name": "AliExpress Scraper",
     "slug": "aliexpress-scraper",
-    "template_url": "https://www.octoparse.com/template/aliexpress-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 6e-05,
     "categories": [
       "e-commerce"
     ],
@@ -3678,7 +3236,6 @@
       {
         "name": "Keyword (up to 10,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "iPhone cases\nEvening dress",
@@ -3687,7 +3244,6 @@
       {
         "name": "Currency",
         "param_name": "Currency",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "USD",
@@ -3696,7 +3252,6 @@
       {
         "name": "Shipping",
         "param_name": "Shipping",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Australia",
@@ -3705,7 +3260,6 @@
       {
         "name": "Language",
         "param_name": "Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "English",
@@ -3732,12 +3286,7 @@
     "template_id": 201,
     "name": "Amazon Japan Product Details Scraper",
     "slug": "amazon-japan-product-details-scraper",
-    "template_url": "https://www.octoparse.com/template/amazon-japan-product-details-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0001,
     "categories": [
       "e-commerce"
     ],
@@ -3745,7 +3294,6 @@
       {
         "name": "ASINs (up to 100,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B07H7BF83T\nB00VUD43XG",
@@ -3785,12 +3333,7 @@
     "template_id": 1865,
     "name": "Google Maps advanced Scraper for Japan",
     "slug": "Google-Maps-advanced-Scraper-for-Japan",
-    "template_url": "https://www.octoparse.com/template/Google-Maps-advanced-Scraper-for-Japan",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0002,
     "categories": [
       "maps",
       "directories"
@@ -3799,7 +3342,6 @@
       {
         "name": "MainKeys (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "レストラン\nエステ\n公園",
@@ -3808,7 +3350,6 @@
       {
         "name": "Number of pages (Up to 50)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "20",
@@ -3817,7 +3358,6 @@
       {
         "name": "Location",
         "param_name": "Location",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "大阪府",
@@ -3877,12 +3417,7 @@
     "template_id": 2156,
     "name": "Zillow Profile Scraper",
     "slug": "zillow-profile-scraper",
-    "template_url": "https://www.octoparse.com/template/zillow-profile-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.001,
     "categories": [
       "e-commerce"
     ],
@@ -3890,7 +3425,6 @@
       {
         "name": "urls",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": null,
@@ -3927,12 +3461,7 @@
     "template_id": 2122,
     "name": "Immobiliare Listing Scraper (Cloud Only)",
     "slug": "scraper-immobiliare",
-    "template_url": "https://www.octoparse.com/template/scraper-immobiliare",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.00015,
     "categories": [
       "real-estate"
     ],
@@ -3940,7 +3469,6 @@
       {
         "name": "urls",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.immobiliare.it/vendita-case/catanzaro-provincia/?criterio=data&ordine=desc",
@@ -3949,7 +3477,6 @@
       {
         "name": "PageSize（Default maximum value: 80）",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "3",
@@ -3982,12 +3509,7 @@
     "template_id": 2039,
     "name": "Amazon Review Scraper (for UK)",
     "slug": "amazon-review-scraper-for-uk",
-    "template_url": "https://www.octoparse.com/template/amazon-review-scraper-for-uk",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.001,
     "categories": [
       "e-commerce"
     ],
@@ -3995,7 +3517,6 @@
       {
         "name": "ASINs (up to 20)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B00284AO0C",
@@ -4004,7 +3525,6 @@
       {
         "name": "Start Date (Reviews Posted After)",
         "param_name": "User_Time",
-        "control_type": "DatetimePicker",
         "input_kind": "text",
         "required": false,
         "placeholder": null,
@@ -4013,7 +3533,6 @@
       {
         "name": "Max reviews per product",
         "param_name": "max_reviews_per_product",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "1000",
@@ -4048,12 +3567,7 @@
     "template_id": 1955,
     "name": "Pagesjaunes Emails Scraper",
     "slug": "pagesjaunes_emails_scraper",
-    "template_url": "https://www.octoparse.com/template/pagesjaunes_emails_scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0006,
     "categories": [
       "e-commerce"
     ],
@@ -4061,7 +3575,6 @@
       {
         "name": "Keywords|Address (up to 2000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Attention: The separator is a vertical bar | (pipe), not a forward slash / \nmairie|Paris",
@@ -4111,12 +3624,7 @@
     "template_id": 1763,
     "name": "Zillow Details Scraper",
     "slug": "zillow-details-scraper",
-    "template_url": "https://www.octoparse.com/template/zillow-details-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.001,
     "categories": [
       "real-estate",
       "lead-generation"
@@ -4125,7 +3633,6 @@
       {
         "name": "Zillow Details Page URL (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.zillow.com/homedetails/240-Benedict-Rd-Bainbridge-NY-13733/29984873_zpid/",
@@ -4203,12 +3710,7 @@
     "template_id": 1683,
     "name": "Gelbe Seiten Details Scraper (Cloud by URLs)",
     "slug": "gelbe-seiten-details-scraper-cloud",
-    "template_url": "https://www.octoparse.com/template/gelbe-seiten-details-scraper-cloud",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0006,
     "categories": [
       "directories",
       "lead-generation"
@@ -4217,7 +3719,6 @@
       {
         "name": "Listing URLs (up to 10.000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.gelbeseiten.de/gsbiz/c7b73d33-cfb9-465d-9911-68324c6b8ebd\nhttps://www.gelbeseiten.de/gsbiz/27963b08-6dd2-49e6-947c-46bd8ee5249c\nhttps://www.gelbeseiten.de/gsbiz/07ae0a4a-2708-42c8-9c35-e55ca8a49d2a\nhttps://www.gelbeseiten.de/gsbiz/f63a146c-0e8e-4b98-9d92-da2a87a4c7b8\nhttps://www.gelbeseiten.de/gsbiz/4c5232be-479d-44bf-bbbe-95a9313e9a49\nhttps://www.gelbeseiten.de/gsbiz/0a49ab46-6544-4fdf-b82e-4e7e86590240\nhttps://www.gelbeseiten.de/gsbiz/58202bf9-4f4d-4cb7-be2d-37fa03fad7f5",
@@ -4251,12 +3752,7 @@
     "template_id": 1574,
     "name": "Seloger biens à vendre Scraper",
     "slug": "seloger-scraper-bien-a-vendre",
-    "template_url": "https://www.octoparse.com/template/seloger-scraper-bien-a-vendre",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0008,
     "categories": [
       "real-estate"
     ],
@@ -4264,7 +3760,6 @@
       {
         "name": "URLs",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.seloger.com/list.htm?tri=initial&enterprise=0&idtypebien=2,1&idtt=2,5&naturebien=1,2,4&div=2238&m=search_hp_new",
@@ -4273,7 +3768,6 @@
       {
         "name": "PageSize (1-100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "20",
@@ -4306,12 +3800,7 @@
     "template_id": 1571,
     "name": "Transfermarkt.de TOP Scorers Scraper",
     "slug": "Transfermarkt-de-top-torschuetzen-scraper",
-    "template_url": "https://www.octoparse.com/template/Transfermarkt-de-top-torschuetzen-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0002,
     "categories": [
       "sports"
     ],
@@ -4319,7 +3808,6 @@
       {
         "name": "Keywords from Input (up to 1,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Bundesliga\n3. Liga\nRegionalliga Nordost",
@@ -4347,12 +3835,7 @@
     "template_id": 1565,
     "name": "Naver Shopping/Smart Store Scraper",
     "slug": "naver-shopping-product-list-scraper",
-    "template_url": "https://www.octoparse.com/template/naver-shopping-product-list-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 8e-05,
     "categories": [
       "others"
     ],
@@ -4360,7 +3843,6 @@
       {
         "name": "keyword(1~20)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "강아지 방석\n트위드 자켓",
@@ -4369,7 +3851,6 @@
       {
         "name": "PageSize（1~100）",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "20",
@@ -4399,12 +3880,7 @@
     "template_id": 1495,
     "name": "Pagesblanches Info Scraper",
     "slug": "pagesblanches_info_scraper",
-    "template_url": "https://www.octoparse.com/template/pagesblanches_info_scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 2e-05,
     "categories": [
       "directories"
     ],
@@ -4412,7 +3888,6 @@
       {
         "name": "Keywords (up to 5000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Marie Durand",
@@ -4421,7 +3896,6 @@
       {
         "name": "Address",
         "param_name": "Address",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "Lille (59000)",
@@ -4449,12 +3923,7 @@
     "template_id": 1376,
     "name": "Idealista Real Estate Listing Scraper (Italy)",
     "slug": "crawler-lista-immobili-idealista",
-    "template_url": "https://www.octoparse.com/template/crawler-lista-immobili-idealista",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 4e-05,
     "categories": [
       "real-estate"
     ],
@@ -4462,7 +3931,6 @@
       {
         "name": "List Page URL",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.idealista.it/vendita-case/venezia/lido-malamocco-pellestrina/lido/\nhttps://www.idealista.it/affitto-stanze/venezia/lido-malamocco-pellestrina/lido/",
@@ -4471,7 +3939,6 @@
       {
         "name": "Number of pages",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "10",
@@ -4502,12 +3969,7 @@
     "template_id": 763,
     "name": "Google Maps Shop Listing (for Germany)",
     "slug": "google-maps-geschaefte-listing-scraper",
-    "template_url": "https://www.octoparse.com/template/google-maps-geschaefte-listing-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0002,
     "categories": [
       "maps"
     ],
@@ -4515,7 +3977,6 @@
       {
         "name": "Keywords (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "supermarket\nshop",
@@ -4524,7 +3985,6 @@
       {
         "name": "Number of Pages (up to 20)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "1 = 20 results, 2 = 40 results, 3 =80 results... up to 20 = 400 results per keyword.",
@@ -4550,12 +4010,7 @@
     "template_id": 113,
     "name": "Amazon Product Details Scraper (for Spain)",
     "slug": "amazon-producto-detalles-scraper-asin",
-    "template_url": "https://www.octoparse.com/template/amazon-producto-detalles-scraper-asin",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "e-commerce"
     ],
@@ -4563,7 +4018,6 @@
       {
         "name": "ASINs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "",
@@ -4606,12 +4060,7 @@
     "template_id": 2066,
     "name": "Amazon Reviews Scraper (for Italy)",
     "slug": "amazon-reviews-scraper-italy",
-    "template_url": "https://www.octoparse.com/template/amazon-reviews-scraper-italy",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.001,
     "categories": [
       "e-commerce"
     ],
@@ -4619,7 +4068,6 @@
       {
         "name": "ASINs (up to 20)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B00284AO0C",
@@ -4628,7 +4076,6 @@
       {
         "name": "Start Date (Reviews Posted After)",
         "param_name": "User_Time",
-        "control_type": "DatetimePicker",
         "input_kind": "text",
         "required": false,
         "placeholder": null,
@@ -4637,7 +4084,6 @@
       {
         "name": "Max reviews per product",
         "param_name": "max_reviews_per_product",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "1000",
@@ -4668,12 +4114,7 @@
     "template_id": 1952,
     "name": "Vinted Data Scraper (by URL)",
     "slug": "vinted_data_scraper_by_url",
-    "template_url": "https://www.octoparse.com/template/vinted_data_scraper_by_url",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0008,
     "categories": [
       "e-commerce"
     ],
@@ -4681,7 +4122,6 @@
       {
         "name": "URLs of listing page (up to 10000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.vinted.fr/catalog?search_text=steampunk%20lunettes%20de%20soleil&time=1754616374",
@@ -4717,12 +4157,7 @@
     "template_id": 1951,
     "name": "Stepstone Listing Scraper nach URLs",
     "slug": "stepstone-listing-scraper-by-url",
-    "template_url": "https://www.octoparse.com/template/stepstone-listing-scraper-by-url",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0001,
     "categories": [
       "jobs"
     ],
@@ -4730,7 +4165,6 @@
       {
         "name": "List of Urls (up to 100)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.stepstone.de/jobs/kundenservice/in-deutschland?radius=30&action=facet_selected%3bdisciplines%3bKundenservice&searchOrigin=Resultlist_top-search&di=Kundenservice",
@@ -4756,12 +4190,7 @@
     "template_id": 1478,
     "name": "Ali Express Product List Scraper(Korean Version)",
     "slug": "ali-express-product-list-scraper-for-Korea",
-    "template_url": "https://www.octoparse.com/template/ali-express-product-list-scraper-for-Korea",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 6e-05,
     "categories": [
       "e-commerce"
     ],
@@ -4769,7 +4198,6 @@
       {
         "name": "Keyword",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "dog house\nhandphone case",
@@ -4778,7 +4206,6 @@
       {
         "name": "Currency",
         "param_name": "Currency",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "",
@@ -4787,7 +4214,6 @@
       {
         "name": "Shipping",
         "param_name": "Shipping",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "",
@@ -4796,7 +4222,6 @@
       {
         "name": "Language",
         "param_name": "Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "",
@@ -4826,12 +4251,7 @@
     "template_id": 1379,
     "name": "Idealista Real Estate Detail Scraper (Italy)",
     "slug": "crawler-dettagli-immobili-idealista",
-    "template_url": "https://www.octoparse.com/template/crawler-dettagli-immobili-idealista",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0003,
     "categories": [
       "real-estate"
     ],
@@ -4839,7 +4259,6 @@
       {
         "name": "Detail Page URLs (up tp 5000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.idealista.it/immobile/25629692/\nhttps://www.idealista.it/immobile/10773562/",
@@ -4874,12 +4293,7 @@
     "template_id": 1290,
     "name": "Malt freelance Info Scraper",
     "slug": "malt-freelance-Info-scraper",
-    "template_url": "https://www.octoparse.com/template/malt-freelance-Info-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0003,
     "categories": [
       "jobs"
     ],
@@ -4887,7 +4301,6 @@
       {
         "name": "URLs (up to 5,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.malt.fr/s/tags/recrutement-59ca86916e6c295df40aa487",
@@ -4918,12 +4331,7 @@
     "template_id": 1279,
     "name": "Tripadvisor Hotel Details Scraper（for Japan）",
     "slug": "tripadvisor-jp-hotel-details-scraper",
-    "template_url": "https://www.octoparse.com/template/tripadvisor-jp-hotel-details-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0008,
     "categories": [
       "travel"
     ],
@@ -4931,7 +4339,6 @@
       {
         "name": "Hotel URLs (Up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.tripadvisor.com/Hotel_Review-g1114493-d1145552-Reviews-Island_Inn_Rishiri-Rishiri_cho_Rishiri_gun_Rishiri_to_Hokkaido.html",
@@ -4967,12 +4374,7 @@
     "template_id": 1278,
     "name": "Tripadvisor Hotel Listings Scraper（for Japan）",
     "slug": "tripadvisor-jp-hotel-listings-scraper",
-    "template_url": "https://www.octoparse.com/template/tripadvisor-jp-hotel-listings-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "travel"
     ],
@@ -4980,7 +4382,6 @@
       {
         "name": "URL (up to 10 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.tripadvisor.jp/Hotels-g298143-Hokkaido-Hotels.html\nhttps://www.tripadvisor.jp/Hotels-g1023181-Tokyo_Prefecture_Kanto-Hotels.html",
@@ -4989,7 +4390,6 @@
       {
         "name": "check-in time (eg: 2026-01-20)",
         "param_name": "check_in_month_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "2026-01-20",
@@ -4998,7 +4398,6 @@
       {
         "name": "check out time (eg: 2026-01-21)",
         "param_name": "check_out_month_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "2026-01-21",
@@ -5007,7 +4406,6 @@
       {
         "name": "Number of pages (1~100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "",
@@ -5033,12 +4431,7 @@
     "template_id": 1006,
     "name": "Tripadvisor Review Scraper (for Germany)",
     "slug": "tripadvisor-review-scraper-for-germany",
-    "template_url": "https://www.octoparse.com/template/tripadvisor-review-scraper-for-germany",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0025,
     "categories": [
       "travel",
       "reviews"
@@ -5047,7 +4440,6 @@
       {
         "name": "URLs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.tripadvisor.de/Hotel\\_Review-g187323-d191438-Reviews-Hilton\\_Berlin-Berlin.html\nhttps://www.tripadvisor.de/Hotel_Review-g187323-d191438-Reviews-Hilton_Berlin-Berlin.html",
@@ -5079,12 +4471,7 @@
     "template_id": 932,
     "name": "Haken Rikunabi Job Scraper",
     "slug": "haken-rikunabi-job-listings-scraper",
-    "template_url": "https://www.octoparse.com/template/haken-rikunabi-job-listings-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "jobs"
     ],
@@ -5092,7 +4479,6 @@
       {
         "name": "Enter URL (up to 10,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "",
@@ -5101,7 +4487,6 @@
       {
         "name": " Number of pages (1~100)",
         "param_name": "Pagesize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "",
@@ -5126,12 +4511,7 @@
     "template_id": 927,
     "name": "Booking Hôtel Info Scraper",
     "slug": "booking-hotel-info-scraper",
-    "template_url": "https://www.octoparse.com/template/booking-hotel-info-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0003,
     "categories": [
       "travel"
     ],
@@ -5139,7 +4519,6 @@
       {
         "name": "URLs (up to 1000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.booking.com/searchresults.fr.html?aid=202160&label=mkt123sc-1e781fd6-1df7-438c-acda-b40d8404802c&dest_id=-1456928&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0",
@@ -5148,7 +4527,6 @@
       {
         "name": "PageSize(The default maximum 11 pages)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "3",
@@ -5180,12 +4558,7 @@
     "template_id": 793,
     "name": "TripAdvisor Hotel Reviews Scraper",
     "slug": "tripadvisor-hotel-reviews-scraper",
-    "template_url": "https://www.octoparse.com/template/tripadvisor-hotel-reviews-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0008,
     "categories": [
       "travel"
     ],
@@ -5193,7 +4566,6 @@
       {
         "name": "Hotel details page URLs (up to 1,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.tripadvisor.com//Hotel\\_Review-g45963-d91925-Reviews-ARIA\\_Resort\\_Casino-Las\\_Vegas\\_Nevada.html\nhttps://www.tripadvisor.com//Hotel\\_Review-g45963-d2409054-Reviews-ARIA\\_Sky\\_Suites-Las\\_Vegas\\_Nevada.html",
@@ -5202,7 +4574,6 @@
       {
         "name": "Start date (yyyy-mm-dd)",
         "param_name": "Start_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "1900-01-01 (if left blank, it will scrape reviews from 2019-01-01 until today.)",
@@ -5211,7 +4582,6 @@
       {
         "name": "language",
         "param_name": "language",
-        "control_type": "Dropdown",
         "input_kind": "text",
         "required": false,
         "placeholder": null,
@@ -5246,12 +4616,7 @@
     "template_id": 732,
     "name": "Amazon Review Scraper (for France)",
     "slug": "amazon-commentaires-scraper",
-    "template_url": "https://www.octoparse.com/template/amazon-commentaires-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0008,
     "categories": [
       "e-commerce"
     ],
@@ -5259,7 +4624,6 @@
       {
         "name": "ASINs (up to 100 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B0F3CQCFJ7",
@@ -5268,7 +4632,6 @@
       {
         "name": "Start Date",
         "param_name": "User_Time",
-        "control_type": "DatetimePicker",
         "input_kind": "text",
         "required": false,
         "placeholder": null,
@@ -5277,7 +4640,6 @@
       {
         "name": "Max reviews per product",
         "param_name": "max_reviews_per_product",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "1000",
@@ -5311,12 +4673,7 @@
     "template_id": 486,
     "name": "Groupon Scraper",
     "slug": "groupon-scraper",
-    "template_url": "https://www.octoparse.com/template/groupon-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 8e-05,
     "categories": [
       "e-commerce"
     ],
@@ -5324,7 +4681,6 @@
       {
         "name": "Keyword (up to 10 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "food",
@@ -5333,7 +4689,6 @@
       {
         "name": "Location",
         "param_name": "Location",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "new york",
@@ -5362,12 +4717,7 @@
     "template_id": 452,
     "name": "Google Maps Scraper (store details by keyword for spanish)",
     "slug": "google-maps-scraper-tiendas-detalles-palabrasclave",
-    "template_url": "https://www.octoparse.com/template/google-maps-scraper-tiendas-detalles-palabrasclave",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0002,
     "categories": [
       "maps"
     ],
@@ -5375,7 +4725,6 @@
       {
         "name": "Keywords (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Se permiten ingresar múltiples palabras clave (Bar en Madrid) por línea y cada palabra clave ocupa una línea",
@@ -5384,7 +4733,6 @@
       {
         "name": "Number of pages (up to 10)",
         "param_name": "Pagesize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "1 = 40 results, 2 = 80 results, 3 =120 results... up to 10 = 400 results per keyword.",
@@ -5416,12 +4764,7 @@
     "template_id": 355,
     "name": "Amazon Japan URLs Scraper",
     "slug": "amazon-japan-urls-scraper",
-    "template_url": "https://www.octoparse.com/template/amazon-japan-urls-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "e-commerce"
     ],
@@ -5429,7 +4772,6 @@
       {
         "name": "ASIN List (up to 10,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B073M362WS",
@@ -5438,7 +4780,6 @@
       {
         "name": "Server Cluster (JP-SpecialOPs Required)",
         "param_name": "Server Cluster",
-        "control_type": null,
         "input_kind": "text",
         "required": true,
         "placeholder": null,
@@ -5463,12 +4804,7 @@
     "template_id": 2124,
     "name": "Google News Scraper (Cloud)",
     "slug": "google-news-scraper-cloud",
-    "template_url": "https://www.octoparse.com/template/google-news-scraper-cloud",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0001,
     "categories": [
       "e-commerce"
     ],
@@ -5476,7 +4812,6 @@
       {
         "name": "Google News Search URLs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://news.google.com/search?q=%22Vote%22%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen\nhttps://news.google.com/search?q=%22Vote%22&hl=en-US&gl=US&ceid=US%3Aen\nhttps://news.google.com/search?q=%22vote%22%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
@@ -5485,7 +4820,6 @@
       {
         "name": "Language",
         "param_name": "Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "en",
@@ -5520,12 +4854,7 @@
     "template_id": 2105,
     "name": "Subito Listing Scraper",
     "slug": "scraper-prodotti-subito",
-    "template_url": "https://www.octoparse.com/template/scraper-prodotti-subito",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.014,
     "categories": [
       "e-commerce"
     ],
@@ -5533,7 +4862,6 @@
       {
         "name": "urls",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.subito.it/annunci-campania/affitto-vacanze/case-vacanza/salerno/salerno/",
@@ -5566,12 +4894,7 @@
     "template_id": 1691,
     "name": "Hoteles Details Scraper",
     "slug": "hoteles-detalles-scraper",
-    "template_url": "https://www.octoparse.com/template/hoteles-detalles-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.002,
     "categories": [
       "travel"
     ],
@@ -5579,7 +4902,6 @@
       {
         "name": "URL of details pages",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://es.hoteles.com/ho227742/dolce-by-wyndham-sitges-barcelona-sitges-espana/?chkin=2024-09-01&chkout=2024-09-03&x_pwa=1&rfrr=HSR&pwa_ts=1724035967143&referrerUrl=aHR0cHM6Ly9lcy5ob3RlbGVzLmNvbS9Ib3RlbC1TZWFyY2g%3D&useRewards=false&rm1=a2&regionId=166&destination=Espa%C3%B1a&destType=MARKET&latLong=40.416705%2C-3.703582&amenities=POOL&sort=RECOMMENDED&top_dp=423&top_cur=EUR&userIntent=&selectedRoomType=321850406&selectedRatePlan=389666829&expediaPropertyId=1100494&searchId=6daa45b6-10cf-4d2c-bd5a-0647cc65fc43&propertyName=Eurostars+Sitges",
@@ -5605,12 +4927,7 @@
     "template_id": 1663,
     "name": "SeasonalJobs Scraper",
     "slug": "seasonalJobs-scraper",
-    "template_url": "https://www.octoparse.com/template/seasonalJobs-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0003,
     "categories": [
       "jobs"
     ],
@@ -5618,7 +4935,6 @@
       {
         "name": "MainKeys",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "Tile Installer",
@@ -5627,7 +4943,6 @@
       {
         "name": "Language",
         "param_name": "Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "EN or  ES",
@@ -5661,12 +4976,7 @@
     "template_id": 1618,
     "name": "Otto Scraper (Produkt Details)",
     "slug": "otto-produkt-details-scraper",
-    "template_url": "https://www.octoparse.com/template/otto-produkt-details-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0009,
     "categories": [
       "e-commerce"
     ],
@@ -5674,7 +4984,6 @@
       {
         "name": "Detailed URLs (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.otto.de/p/surprisa-aufkleber-set-danke-fuer-merci-schokolade-individuelles-geschenk-um-danke-zu-sagen-S0W220BW/#variationId=S0W220BW7FDA\nhttps://www.otto.de/p/younikat-aufkleber-aufkleber-set-fuer-merci-schokolade-mit-vorgedruckten-aufklebern-i-S0A4I03Y/#variationId=S0A4I03YJIT5\nhttps://www.otto.de/p/milka-geschenkbox-milka-naps-mix-schokoladentaefelchen-1-0-kg-packung-207-st-1kg-schokolade-schokoladentaefelchen-1kg-glutenfrei-vegetarisch-S01A90TR/#variationId=S01A90TR4K73",
@@ -5704,12 +5013,7 @@
     "template_id": 1594,
     "name": "Rushbet Scraper",
     "slug": "rushbet-scraper",
-    "template_url": "https://www.octoparse.com/template/rushbet-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 1e-05,
     "categories": [
       "sports",
       "others"
@@ -5718,7 +5022,6 @@
       {
         "name": "MainKeys",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "football\nbasketball\namerican_football\nbaseball",
@@ -5727,7 +5030,6 @@
       {
         "name": "Country",
         "param_name": "Country",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "MX or  CO",
@@ -5755,12 +5057,7 @@
     "template_id": 1567,
     "name": "Transfermarkt.de Overall Game Schedule Scraper",
     "slug": "transfermarkt-de-gesamtspielplan-scraper",
-    "template_url": "https://www.octoparse.com/template/transfermarkt-de-gesamtspielplan-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "sports"
     ],
@@ -5768,7 +5065,6 @@
       {
         "name": "Keywords from Input (up to 1,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "Bundesliga\n2. Bundesliga\n3. Liga\nRegionalliga Nord\nRegionalliga Nordost",
@@ -5794,12 +5090,7 @@
     "template_id": 1559,
     "name": "Zillow Listing Scraper (by keyword)",
     "slug": "zillow-scraper-by-keywords",
-    "template_url": "https://www.octoparse.com/template/zillow-scraper-by-keywords",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "real-estate"
     ],
@@ -5807,7 +5098,6 @@
       {
         "name": "Locations (up to 1,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "Please Enter an address, neighborhood, city, or ZIP code.",
@@ -5816,7 +5106,6 @@
       {
         "name": "buy or rent",
         "param_name": "Option",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "buy",
@@ -5845,12 +5134,7 @@
     "template_id": 1537,
     "name": "Wallapop Scraper (by Keywords)",
     "slug": "wallapop-scraper-palabras-clave",
-    "template_url": "https://www.octoparse.com/template/wallapop-scraper-palabras-clave",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0003,
     "categories": [
       "e-commerce"
     ],
@@ -5858,7 +5142,6 @@
       {
         "name": "Keywords (up to 5000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "iphone",
@@ -5867,7 +5150,6 @@
       {
         "name": "Number of pages (1-100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "20",
@@ -5896,12 +5178,7 @@
     "template_id": 1477,
     "name": "Leroy Merlin Product Scraper",
     "slug": "crawler-prodotti-leroy-merlin",
-    "template_url": "https://www.octoparse.com/template/crawler-prodotti-leroy-merlin",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 5e-05,
     "categories": [
       "e-commerce"
     ],
@@ -5909,7 +5186,6 @@
       {
         "name": "Keywords (up to 10000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "specchi\nventilatori",
@@ -5941,12 +5217,7 @@
     "template_id": 1404,
     "name": "Mercari Product Details Scraping by URL (Cloud Only)",
     "slug": "mercari-product-detail-URL-scraper-cloud",
-    "template_url": "https://www.octoparse.com/template/mercari-product-detail-URL-scraper-cloud",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 5e-05,
     "categories": [
       "e-commerce"
     ],
@@ -5954,7 +5225,6 @@
       {
         "name": "URLs (up to 100,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://jp.mercari.com/item/m52132288536",
@@ -5988,12 +5258,7 @@
     "template_id": 1053,
     "name": "Kompass Leads Scraper (for Germany)",
     "slug": "kompass-leads-scraper",
-    "template_url": "https://www.octoparse.com/template/kompass-leads-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.003,
     "categories": [
       "directories",
       "lead-generation"
@@ -6002,7 +5267,6 @@
       {
         "name": "Details page URLs (up to 10000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://de.kompass.com/c/chematek-france/fr4664020/\nhttps://de.kompass.com/c/dixi-polytool-sa/ch013466/\nhttps://de.kompass.com/c/rollier-s-a/ch022086/\nhttps://de.kompass.com/c/mercedes-benz-group-ag/de606473/\nhttps://de.kompass.com/c/mercedes-benz-werk-gaggenau/de611743/\nhttps://de.kompass.com/c/mercedes-benz-werk-sindelfingen/de611767/\nhttps://de.kompass.com/c/sonova-retail-deutschland-gmbh/de611732/\nhttps://de.kompass.com/c/tatjana-benz-catering-partyservice/dea190225/",
@@ -6037,12 +5301,7 @@
     "template_id": 921,
     "name": "Stepstone Details Job Scraper",
     "slug": "stepstone-details-job-scraper",
-    "template_url": "https://www.octoparse.com/template/stepstone-details-job-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.002,
     "categories": [
       "jobs"
     ],
@@ -6050,7 +5309,6 @@
       {
         "name": "Detailed URLs (up to 2,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.stepstone.de/stellenangebote--MD-Manager-in-Medizincontrolling-m-w-d-Berlin-Friedrichshain-Vivantes-Klinikum-im-Friedrichshain-Landsberger-Allee--10825060-inline.html?rltr=1_1_25_seorl_m_0_0_0_0_1_0\nhttps://www.stepstone.de/stellenangebote--Manager-Managed-Services-und-Allianzen-w-m-d-Duesseldorf-Hamburg-Frankfurt-Muenchen-Berlin-Koeln-Hannover-Saarbruecken-Stuttgart-PwC--10877178-inline.html?rltr=2_2_25_seorl_m_0_2_0_0_0_0\nhttps://www.stepstone.de/stellenangebote--Manager-Digital-Solutions-w-m-d-Privatkunden-Wiesbaden-Berlin-SCHUFA-Holding-AG--10751666-inline.html?rltr=3_3_25_seorl_m_0_1_0_0_0_0\nhttps://www.stepstone.de/stellenangebote--Human-Rights-Manager-m-f-d-Berlin-Bausch-Lomb--10880020-inline.html?rltr=4_4_25_seorl_m_0_0_0_0_0_0",
@@ -6081,12 +5339,7 @@
     "template_id": 761,
     "name": "eBay Produits Détails Scraper",
     "slug": "ebay-produits-details-scraper",
-    "template_url": "https://www.octoparse.com/template/ebay-produits-details-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 1,
-    "price_per_result": 0.0003,
     "categories": [
       "e-commerce"
     ],
@@ -6094,7 +5347,6 @@
       {
         "name": "URL (up to 1000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "",
@@ -6121,12 +5373,7 @@
     "template_id": 706,
     "name": "eInforma Details Scraper",
     "slug": "einforma-detalles-scraper",
-    "template_url": "https://www.octoparse.com/template/einforma-detalles-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.018,
     "categories": [
       "e-commerce"
     ],
@@ -6134,7 +5381,6 @@
       {
         "name": "Detail Pages URL (up to 10,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "Supports entering multiple urls in batches, each url occupies one line.",
@@ -6143,7 +5389,6 @@
       {
         "name": "Number of parameters for subtasks",
         "param_name": "StepLength",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "According to the number of URLs entered",
@@ -6169,12 +5414,7 @@
     "template_id": 473,
     "name": "Amazon Prime Scraper",
     "slug": "amazon-prime-scraper",
-    "template_url": "https://www.octoparse.com/template/amazon-prime-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0006,
     "categories": [
       "e-commerce"
     ],
@@ -6182,7 +5422,6 @@
       {
         "name": "US ZIP Code (1 per run)",
         "param_name": "PostCode",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "33136",
@@ -6191,7 +5430,6 @@
       {
         "name": "Number of Pages (1~1,000)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "",
@@ -6200,7 +5438,6 @@
       {
         "name": "Keyword (up to 5 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "hair care\niPhone\nkitchen scale\nmouse gamer",
@@ -6229,12 +5466,7 @@
     "template_id": 186,
     "name": "Amazon Product Listing Scraper (for UK)",
     "slug": "amazon-product-listing-scraper-for-uk",
-    "template_url": "https://www.octoparse.com/template/amazon-product-listing-scraper-for-uk",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "e-commerce"
     ],
@@ -6242,7 +5474,6 @@
       {
         "name": "Keyword (up to 1,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "shoes\ntshirt\niphone case",
@@ -6251,7 +5482,6 @@
       {
         "name": "Number of pages (1-100)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "5",
@@ -6278,12 +5508,7 @@
     "template_id": 122,
     "name": "TripAdvisor Scraper (Hotel Details)",
     "slug": "tripadvisor-scraper-hotel-details",
-    "template_url": "https://www.octoparse.com/template/tripadvisor-scraper-hotel-details",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0015,
     "categories": [
       "travel"
     ],
@@ -6291,7 +5516,6 @@
       {
         "name": "Hotel URLs (Up to 100)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.tripadvisor.com/Hotel_Review-g1114493-d1145552-Reviews-Island_Inn_Rishiri-Rishiri_cho_Rishiri_gun_Rishiri_to_Hokkaido.html",
@@ -6329,12 +5553,7 @@
     "template_id": 121,
     "name": "TripAdvisor Scraper (Hotel Listing)",
     "slug": "tripadvisor-scraper-hotel-listing",
-    "template_url": "https://www.octoparse.com/template/tripadvisor-scraper-hotel-listing",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0001,
     "categories": [
       "travel"
     ],
@@ -6342,7 +5561,6 @@
       {
         "name": "Listing page URLs (up to 10000) ",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.tripadvisor.de/Hotels-g187309-Munich_Upper_Bavaria_Bavaria-Hotels.html\nhttps://www.tripadvisor.com/Hotels-g187371-Cologne_North_Rhine_Westphalia-Hotels.html\nhttps://www.tripadvisor.com/Hotels-g187337-Frankfurt_Hesse-Hotels.html",
@@ -6351,7 +5569,6 @@
       {
         "name": "Number of pages (up to 1000)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "2",
@@ -6360,7 +5577,6 @@
       {
         "name": "Check-in date",
         "param_name": "check_in_month_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "2025-12-28",
@@ -6369,7 +5585,6 @@
       {
         "name": "Check-out date",
         "param_name": "check_out_month_date",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "2026-01-01",
@@ -6396,12 +5611,7 @@
     "template_id": 2148,
     "name": "Gmarket product information scarper",
     "slug": "gmarket-product-information-scarper",
-    "template_url": "https://www.octoparse.com/template/gmarket-product-information-scarper",
     "mcp_stable": true,
-    "language": "Ko_KR",
-    "run_on": null,
-    "account_limit": null,
-    "price_per_result": 0.0012,
     "categories": [],
     "input_fields": [],
     "known_output_fields": [
@@ -6426,12 +5636,7 @@
     "template_id": 2146,
     "name": "Twitter People Search Scraper",
     "slug": "twitter-people-search-scraper",
-    "template_url": "https://www.octoparse.com/template/twitter-people-search-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 0,
-    "price_per_result": 0.0003,
     "categories": [
       "social-media"
     ],
@@ -6439,7 +5644,6 @@
       {
         "name": "All of these words",
         "param_name": "All_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: what's happening · contains both \"what's\" and \"happening\"",
@@ -6448,7 +5652,6 @@
       {
         "name": "This exact phrase",
         "param_name": "This_exact_phrase",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: happy hour · contains the exact phrase \"happy hour\"",
@@ -6457,7 +5660,6 @@
       {
         "name": "Any of these words",
         "param_name": "Any_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: cats dogs · contains either \"cats\" or \"dogs\" (or both)",
@@ -6466,7 +5668,6 @@
       {
         "name": "None of these words",
         "param_name": "None_of_these_words",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: cats dogs · does not contain \"cats\" and does not contain \"dogs\"",
@@ -6475,7 +5676,6 @@
       {
         "name": "These hashtags",
         "param_name": "These_hashtags",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: #ThrowbackThursday · contains the hashtag #ThrowbackThursday",
@@ -6484,7 +5684,6 @@
       {
         "name": "From these accounts",
         "param_name": "From_these_accounts",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: @X · sent from @X",
@@ -6493,7 +5692,6 @@
       {
         "name": "To these accounts",
         "param_name": "To_these_accounts",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: @X · sent in reply to @X",
@@ -6502,7 +5700,6 @@
       {
         "name": "Mentioning these accounts",
         "param_name": "Mentioning_these_accounts",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: @SFBART @Caltrain · mentions @SFBART or mentions @Caltrain",
@@ -6511,7 +5708,6 @@
       {
         "name": "Max Tweets to Extract",
         "param_name": "Max_Items",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": "Example: 100. (Enter how many tweets you want to scrape.)",
@@ -6520,7 +5716,6 @@
       {
         "name": "Language",
         "param_name": "Language",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "Example: Any language, en, jp, fr, de",
@@ -6529,7 +5724,6 @@
       {
         "name": "Scraping mode",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "The date splitting mode merely serves as a placeholder. Entering any text will not affect the result.",
@@ -6555,12 +5749,7 @@
     "template_id": 1931,
     "name": "Ebay Details Scraper (By Search Keywords)",
     "slug": "ebay_details",
-    "template_url": "https://www.octoparse.com/template/ebay_details",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0008,
     "categories": [
       "e-commerce"
     ],
@@ -6568,7 +5757,6 @@
       {
         "name": "Keywords",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "switch 2 console new sealed",
@@ -6577,7 +5765,6 @@
       {
         "name": "Page(1-100)",
         "param_name": "Pagesize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": false,
         "placeholder": null,
@@ -6609,12 +5796,7 @@
     "template_id": 1787,
     "name": "galaxus",
     "slug": "galaxus-product-scraper-listing",
-    "template_url": "https://www.octoparse.com/template/galaxus-product-scraper-listing",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0015,
     "categories": [
       "e-commerce"
     ],
@@ -6622,7 +5804,6 @@
       {
         "name": "Search Keywords",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": null,
@@ -6648,12 +5829,7 @@
     "template_id": 822,
     "name": "Shein Scraper (Product Listing by Keyword)",
     "slug": "shein-scraper-product-listing-by-keyword",
-    "template_url": "https://www.octoparse.com/template/shein-scraper-product-listing-by-keyword",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.002,
     "categories": [
       "e-commerce"
     ],
@@ -6661,7 +5837,6 @@
       {
         "name": "Keyword (up to 1,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "dress\nshoes",
@@ -6670,7 +5845,6 @@
       {
         "name": "Country",
         "param_name": "country",
-        "control_type": "Input",
         "input_kind": "text",
         "required": false,
         "placeholder": "United States",
@@ -6696,12 +5870,7 @@
     "template_id": 190,
     "name": "Flipkart Product Scraper",
     "slug": "flipkart-product-scraper",
-    "template_url": "https://www.octoparse.com/template/flipkart-product-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.012,
     "categories": [
       "e-commerce"
     ],
@@ -6709,7 +5878,6 @@
       {
         "name": "Detail page URLs (up to 1,000)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.flipkart.com/realme-5-pro-chroma-white-128-gb/p/itmfj9twdugyvg77\nhttps://www.flipkart.com/realme-5-pro-sparkling-blue-64-gb/p/itmfj9twdugyvg77\nhttps://www.flipkart.com/realme-5i-aqua-blue-64-gb/p/itmdac0da867a9fa",
@@ -6741,12 +5909,7 @@
     "template_id": 189,
     "name": "Flipkart Listing Scraper",
     "slug": "flipkart-scraper",
-    "template_url": "https://www.octoparse.com/template/flipkart-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "e-commerce"
     ],
@@ -6754,7 +5917,6 @@
       {
         "name": "URL (up to 10 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "url_list",
         "required": true,
         "placeholder": "https://www.flipkart.com/search?q=mobile\nhttps://www.flipkart.com/search?q=tablet&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off",
@@ -6763,7 +5925,6 @@
       {
         "name": "Number of pages (1-40)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "",
@@ -6792,12 +5953,7 @@
     "template_id": 110,
     "name": "Amazon Product Details Scraper (for India)",
     "slug": "amazon-product-details-scraper-for-india",
-    "template_url": "https://www.octoparse.com/template/amazon-product-details-scraper-for-india",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0006,
     "categories": [
       "e-commerce"
     ],
@@ -6805,7 +5961,6 @@
       {
         "name": "ASIN (up to 10,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B0BXCQ8J9Z\nB0CBVW2Q6B\nB0BWR911W9",
@@ -6865,12 +6020,7 @@
     "template_id": 109,
     "name": "Amazon Product Listing Scraper (for India)",
     "slug": "amazon-product-listing-scraper-for-india",
-    "template_url": "https://www.octoparse.com/template/amazon-product-listing-scraper-for-india",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0001,
     "categories": [
       "e-commerce"
     ],
@@ -6878,7 +6028,6 @@
       {
         "name": "Keyword (up to 10,000 per run)",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "keyword_list",
         "required": true,
         "placeholder": "ipad\nmilk",
@@ -6887,7 +6036,6 @@
       {
         "name": "Number of pages (1~20)",
         "param_name": "PageSize",
-        "control_type": "Input",
         "input_kind": "number",
         "required": true,
         "placeholder": "",
@@ -6896,7 +6044,6 @@
       {
         "name": "IN postal code",
         "param_name": "PostCode",
-        "control_type": "Input",
         "input_kind": "text",
         "required": true,
         "placeholder": "110001",
@@ -6923,12 +6070,7 @@
     "template_id": 32,
     "name": "Amazon Product Details Scraper (for UK)",
     "slug": "amazon-product-scraper",
-    "template_url": "https://www.octoparse.com/template/amazon-product-scraper",
     "mcp_stable": true,
-    "language": "en-US",
-    "run_on": "cloud-only",
-    "account_limit": 2,
-    "price_per_result": 0.0006,
     "categories": [
       "e-commerce"
     ],
@@ -6936,7 +6078,6 @@
       {
         "name": "Asins",
         "param_name": "MainKeys",
-        "control_type": "MultiInput",
         "input_kind": "multi_input",
         "required": true,
         "placeholder": "B0FHKYW91D\nB00003ETR2\nB00000IVUJ\nB00004U3L9",
