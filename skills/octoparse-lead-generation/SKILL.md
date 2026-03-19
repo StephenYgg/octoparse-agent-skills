@@ -42,9 +42,10 @@ Use evidence in this order:
 
 1. `references/lead-template-shortlist.json`
 2. `references/lead-track-guidance.md`
-3. template-specific docs in the sibling `templates/` directory, when available
-4. Octoparse MCP template detail tools
-5. official Octoparse template pages
+3. `octoparse-link-template` when a recommendation involves more than one template
+4. template-specific docs in the sibling `templates/` directory, when available
+5. Octoparse MCP template detail tools
+6. official Octoparse template pages
 
 Do not search the whole template catalog first unless the shortlist clearly cannot satisfy the request.
 
@@ -147,6 +148,12 @@ Keep the output focused:
 
 - one primary chain
 - alternatives only if they cover a materially different need, geography, or language
+
+If the recommendation involves more than one template:
+
+- use `octoparse-link-template` to validate that the chain is a real output-to-input workflow before presenting it
+- do not rely on similar field names or similar search inputs alone
+- if the relationship is only a paired strategy rather than a true chain, say so explicitly
 
 ### Step 5: Validate with Template Details If Needed
 
