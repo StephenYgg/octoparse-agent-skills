@@ -79,6 +79,13 @@ Supported modes:
 - `run and sample`
 - `export-ready`
 
+Use these meanings:
+
+- `quick answer` = recommend the best template or chain and explain why, without creating a task
+- `task setup` = inspect template details, gather inputs, and create the task without defaulting to execution
+- `run and sample` = create and run the task, then return a small sample or short result summary to verify fit
+- `export-ready` = run the task until results are ready for export or full retrieval, then summarize record count and key fields
+
 Defaults:
 
 - guidance only -> `quick answer`
